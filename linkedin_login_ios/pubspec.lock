@@ -26,10 +26,10 @@ packages:
     dependency: "direct dev"
     description:
       name: args
-      sha256: bf9f5caeea8d8fe6721a9c358dd8a5c1947b27f1cfaa18b39c301273594919e6
+      sha256: d0481093c50b1da8910eb0bb301626d4d8eb7284aa739614d2b394ee09e3ea04
       url: "https://pub.dev"
     source: hosted
-    version: "2.6.0"
+    version: "2.7.0"
   async:
     dependency: transitive
     description:
@@ -269,10 +269,10 @@ packages:
     dependency: "direct dev"
     description:
       name: pigeon
-      sha256: a8b124eda229d9b0a07ecff9710c6aa7f3cd65595b982c28e41f4e8f88ffc09a
+      sha256: a093af76026160bb5ff6eb98e3e678a301ffd1001ac0d90be558bc133a0c73f5
       url: "https://pub.dev"
     source: hosted
-    version: "22.7.4"
+    version: "25.3.2"
   plugin_platform_interface:
     dependency: "direct dev"
     description:
@@ -383,7 +383,7 @@ packages:
     source: hosted
     version: "4.13.0"
   webview_flutter_android:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: webview_flutter_android
       sha256: f6e6afef6e234801da77170f7a1847ded8450778caf2fe13979d140484be3678
@@ -399,7 +399,7 @@ packages:
     source: hosted
     version: "2.13.0"
   webview_flutter_wkwebview:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: webview_flutter_wkwebview
       sha256: a3d461fe3467014e05f3ac4962e5fdde2a4bf44c561cb53e9ae5c586600fdbc3

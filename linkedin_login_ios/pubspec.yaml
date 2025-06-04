@@ -18,7 +18,7 @@ dependencies:
   linkedin_login_platform_interface:
     git:
       url: https://github.com/alikaradogan/linkedin_login
-      path: linkedin_login_ios
+      path: linkedin_login_platform_interface
 
 dev_dependencies:
   flutter_test:
