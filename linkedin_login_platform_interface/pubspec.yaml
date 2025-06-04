@@ -1,8 +1,8 @@
 name: linkedin_login_platform_interface
 description: "Contains shared logic between platforms and interfaces for them"
-version: 0.0.1
-homepage: https://github.com/d3xt3r2909/linkedin_login/tree/master/linkedin_login_platform_interface
-repository: https://github.com/d3xt3r2909/linkedin_login
+version: 0.0.2
+homepage: https://github.com/alikaradogan/linkedin_login/tree/master/linkedin_login_platform_interface
+repository: https://github.com/alikaradogan/linkedin_login
 documentation:
 
 environment:
@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.1.0
   equatable: ^2.0.3
-  webview_flutter: ^4.7.0
+  webview_flutter: ^4.13.0
 
 dev_dependencies:
   flutter_test:
