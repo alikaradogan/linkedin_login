@@ -4,6 +4,7 @@ version: 0.0.2
 homepage: https://github.com/d3xt3r2909/linkedin_login/tree/master/linkedin_login_android
 repository: https://github.com/d3xt3r2909/linkedin_login
 documentation:
+publish_to: none
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
@@ -14,16 +15,19 @@ dependencies:
     sdk: flutter
   webview_flutter: ^4.13.0
   webview_flutter_android: ^4.7.0
-  linkedin_login_platform_interface: ^0.0.2
+  linkedin_login_platform_interface: 
+    git:
+      url: https://github.com/alikaradogan/linkedin_login
+      path: linkedin_login_platform_interface
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  plugin_platform_interface: ^2.0.2
-  pigeon: ^22.3.0
+  plugin_platform_interface: ^2.1.8
+  pigeon: ^25.3.2
   mocktail: ^1.0.4
-  args: ^2.3.0
+  args: ^2.7.0
 
 flutter:
   plugin:

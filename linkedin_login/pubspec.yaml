@@ -4,6 +4,7 @@ version: 3.1.4
 homepage: https://github.com/d3xt3r2909/linkedin_login
 repository: https://github.com/d3xt3r2909/linkedin_login
 documentation:
+publish_to: none
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
@@ -12,24 +13,33 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.2.1
-  meta: ^1.11.0
+  http: ^1.4.0
+  meta: ^1.17.0
   rxdart: ">=0.27.7 <0.29.0"
-  uuid: ^4.3.3
+  uuid: ^4.5.1
   webview_flutter: ^4.13.0
-  linkedin_login_platform_interface: ^0.0.2
-  linkedin_login_ios: ^0.0.3
-  linkedin_login_android: ^0.0.2
+  linkedin_login_platform_interface:
+    git:
+      url: https://github.com/alikaradogan/linkedin_login
+      path: linkedin_login_platform_interface
+  linkedin_login_ios:
+    git:
+      url: https://github.com/alikaradogan/linkedin_login
+      path: linkedin_login_ios
+  linkedin_login_android:
+    git:
+      url: https://github.com/alikaradogan/linkedin_login
+      path: linkedin_login_android
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  plugin_platform_interface: ^2.0.2
-  build_runner: ^2.4.8
-  mockito: ^5.4.4
-  test: ^1.24.9
-  flutter_lints: ">=3.0.1 <5.0.0"
+  plugin_platform_interface: ^2.1.8
+  build_runner: ^2.4.15
+  mockito: ^5.4.6
+  test: ^1.25.15
+  flutter_lints: ^6.0.0
 
 flutter:
   plugin:
