@@ -14,8 +14,8 @@
 /// approved for the LinkedIn Marketing Developer Program.
 ///
 /// A bit more of context is described under this issue
-/// https://github.com/d3xt3r2909/linkedin_login/issues/63#issuecomment-940696147
-/// https://github.com/d3xt3r2909/linkedin_login/issues/28#issuecomment-673366607
+/// https://github.com/alikaradogan/linkedin_login/issues/63#issuecomment-940696147
+/// https://github.com/alikaradogan/linkedin_login/issues/28#issuecomment-673366607
 abstract class Scope {
   const Scope(this.permission);
 
